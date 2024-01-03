@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.blackieee{
+    background: rgb(37, 37, 37);
+}
+
+@media only screen and (max-width: 1300px) {
+.right_image{
+width: 30rem;
+}
+.left_image{
+    width: 27rem;
+}
+}
+@media only screen and (max-width: 1156px) {
+.right_image{
+width: 24rem;
+}
+.left_image{
+    width: 20rem;
+}
+}
+@media only screen and (max-width: 972px) {
+.right_image{
+width: 18rem;
+}
+.left_image{
+    width: 16rem;
+}
+}
+@media only screen and (max-width: 858px) {
+.right_image{
+width: 15rem;
+}
+.left_image{
+    width: 12rem;
+}
+}
+@media only screen and (max-width: 754px) {
+.right_image{
+    display: none !important;
+}
+.left_image{
+    display: none !important;
+}
+
+}

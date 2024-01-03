@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blackie{
+    background-color: rgb(36, 36, 36);
+}
+
+@media only screen and (max-width: 982px) {
+.smaller_text{
+    font-size: 1.25rem !important; /* 20px */
+    line-height: 1.75rem !important; /* 28px */
+}
+    }
+@media only screen and (max-width: 893px) {
+.responsive_img{
+    display: none;
+}
+    }
+ @media only screen and (max-width: 1270px) {
+        .bob{
+         
+         grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        }
+       }
+     @media only screen and (max-width: 760px) {
+        .bob{
+         
+         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        }
+       }
+     @media only screen and (max-width: 494px) {
+        .bob{
+         
+         grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+        }
+       }
+
+ @media only screen and (max-width: 720px) {
+     .portrait_card{
+        display: flex !important;
+     }
+            }
+ /* Styles for screens with a width between 600px and 900px */
+@media screen and (min-width: 720px) and (max-width: 2888px) {
+    /* Your CSS styles for this width range go here */
+  .landscape_card{
+    display: flex !important;
+  }
+  }
+  
